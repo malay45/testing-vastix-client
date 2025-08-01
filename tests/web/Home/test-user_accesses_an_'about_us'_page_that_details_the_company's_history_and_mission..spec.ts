@@ -3,7 +3,11 @@ import * as allure from "allure-js-commons";
 import '../../hooks/test.setup';
 
 
+<<<<<<< HEAD
 test('test', { tag: ["@Home"] }, async ({ page }, testInfo6) => {
+=======
+test('test', { tag: ["@Home"] }, async ({ page }, testInfo5) => {
+>>>>>>> fca381f3b2154ff2b1bdf1c2b84b659d2a208827
 
 
     await allure.step("Navigate to https://aksharsoftsolutions.com/ : https://aksharsoftsolutions.com/", async () => { await page.goto('https://aksharsoftsolutions.com/'); });
