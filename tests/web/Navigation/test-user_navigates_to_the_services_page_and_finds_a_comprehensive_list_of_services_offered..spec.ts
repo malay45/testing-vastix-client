@@ -2,6 +2,7 @@ import { Page, Locator, test, expect, } from '@playwright/test';
 import * as allure from "allure-js-commons";
 import '../../hooks/test.setup';
 
+console.log("Test");
 
 test('test', { tag: ["@Navigation"] }, async ({ page }, testInfo) => {
 
